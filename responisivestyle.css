@@ -1,0 +1,376 @@
+@media only screen and (max-width:850px) {
+    html {
+        font-size: 41.4%;
+    }
+
+    .dashbord nav {
+        display: none;
+        visibility: hidden;
+    }
+
+    .secondnav nav {
+        position: absolute;
+        width: 100%;
+        height: 40vh;
+        gap: .1rem;
+        display: grid;
+        place-items: center;
+        visibility: hidden;
+        left: 100%;
+        overflow: hidden;
+        transition: all ease-in .5s;
+
+    }
+
+    /* bar  */
+    label {
+        display: block;
+    }
+
+    .secondnav label {
+        visibility: visible;
+        float: right;
+        margin-right: 4rem;
+        margin-top: .9rem;
+        font-size: 4rem;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked~nav {
+        left: 0;
+        visibility: visible;
+    }
+
+    /*bar ends  */
+    .secondnav .logo {
+        display: inline-block;
+        visibility: visible;
+        margin: .9rem .5rem .5rem .5rem;
+    }
+
+    .dashbord .logo {
+        margin-right: 2rem;
+
+
+    }
+
+    .logo img {
+        width: auto;
+        height: 5vh;
+    }
+
+    .submit1 {
+        margin-left: 2rem;
+
+
+    }
+
+    /* middle section of dashbord  */
+    .normalinfo {
+        display: flex;
+        place-items: center;
+        align-items: center;
+        gap: .1rem;
+
+
+    }
+
+    .i1 {
+        width: 100%;
+        height: auto;
+        font-size: 1.1rem;
+        padding: .8rem;
+
+
+    }
+
+    .i1 h1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.9rem;
+    }
+
+    .i1 i {
+        font-size: 3rem;
+    }
+
+    /* welcome page ========  */
+    .welcomepart img {
+        margin-left: 12rem;
+        height: 30rem;
+    }
+
+    .welcomepart .p1 {
+        margin-left: 17rem;
+    }
+
+    .backinfo {
+        gap: 3rem;
+
+    }
+
+    .backinfo .i2 {
+        width: auto;
+        height: auto;
+
+    }
+
+    .i2 h1 {
+        margin-top: .2rem;
+        margin-bottom: .1rem;
+        font-size: 1.9rem;
+    }
+
+    .i2 p {
+        width: 7rem;
+        height: .1rem;
+        border-bottom: .4rem dashed rgb(205, 205, 12);
+    }
+
+    .i2 i {
+
+        font-size: 2.7rem;
+        float: right;
+        margin-top: 1.5rem;
+        margin-right: 2.4rem;
+
+    }
+
+    .courses {
+        margin-top: -24rem;
+    }
+
+    .contentdiv {
+        width: 70%;
+        height: auto;
+        margin: 1rem 1.5rem 1.5rem 1.5rem;
+        background-color: white;
+        padding: .5rem;
+        border-radius: .4rem;
+        border: .1rem solid lightgray;
+    }
+
+    .contentdiv h2 {
+        font-size: 1.5rem;
+    }
+
+    .contentdiv p {
+        font-size: 1rem;
+    }
+
+    .mobileimg img {
+        height: 25rem;
+        float: left;
+        margin: 4rem;
+        margin-left: 5rem;
+    }
+
+    .socialmedia {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        gap: 3rem;
+    }
+
+    .footercontent {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        float: left;
+        margin-left: 15rem;
+        gap: 1.5rem;
+        font-size: 1.6rem;
+
+    }
+
+    .footercontent .f1 {
+        padding: .3rem;
+        padding-top: 4rem;
+    }
+
+    .f1 p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    html {
+        font-size: 45.4%;
+    }
+
+    .dashbord nav{
+        width: 100%;
+        height: 12vh;
+        line-height: 12vh;
+        padding: 1rem 1rem 2rem 1rem;
+        background-color: rgba(10, 10, 61, 0.8);
+        position: fixed;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        transition: all ease-in .1s;
+        line-height: 12vh;
+        text-align: center;
+        padding-bottom: 2rem;
+
+    }
+
+    .contentdiv {
+        width: 70%;
+        height: auto;
+        margin: .8rem .8rem .8rem .8rem;
+        background-color: white;
+        padding: .5rem;
+        border-radius: .4rem;
+        border: .1rem solid lightgray;
+    }
+
+    .contentdiv h2 {
+        font-size: 1.9rem;
+    }
+
+    .contentdiv p {
+        font-size: 1.3rem;
+    }
+
+    .mobileimg img {
+        height: 30rem;
+        float: left;
+        margin: 4rem;
+        margin-left: 5rem;
+    }
+
+    .socialmedia {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        gap: 3rem;
+    }
+
+    .footercontent {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        float: left;
+        margin-left: 15rem;
+        gap: 1.5rem;
+        font-size: 1.6rem;
+
+    }
+
+    .footercontent .f1 {
+        padding: .3rem;
+        padding-top: 4rem;
+    }
+
+    .f1 p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    html {
+        font-size: 20.4%;
+    }
+
+    .normalinfo {
+        display: grid;
+        place-items: center;
+        gap: 2rem;
+
+    }
+
+    .logo img {
+        width: auto;
+        height: 3vh;
+    }
+
+    .welcomepart img {
+        margin-left: 15rem;
+        height: 30rem;
+        margin-top: -7rem;
+        margin-bottom: -7rem;
+
+    }
+
+    .normalinfo {
+        display: flex;
+        place-items: center;
+        align-items: center;
+        gap: .1rem;
+
+
+    }
+
+    .i1 {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        padding: .8rem;
+
+
+    }
+
+    .i1 h1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .i1 i {
+        font-size: 2rem;
+    }
+
+    .staff {
+        height: 50vh;
+    }
+
+    .courses {
+        margin-top: -70rem;
+        margin-bottom: 3rem;
+    }
+
+    .solutionapp {
+        padding-top: 20rem;
+        height: 30vh;
+    }
+
+    .contentdiv {
+        width: 60%;
+        height: auto;
+        margin: 1rem 1.5rem 1.5rem 1.5rem;
+        background-color: white;
+        border-radius: .4rem;
+        border: .1rem solid lightgray;
+    }
+
+    .contentdiv h2 {
+        font-size: 1.2rem;
+    }
+
+    .contentdiv p {
+        font-size: 1rem;
+    }
+
+    .footer {
+        height: 60vh;
+    }
+}

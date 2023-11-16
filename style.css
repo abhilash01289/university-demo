@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.2%;
+    scroll-behavior: smooth;
+}
+
+.dashbord {
+    width: 100%;
+    height: auto;
+    background-image: url(collegedesk.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+}
+
+/*------------------- nav-----------------  */
+.dashbord nav {
+    width: 100%;
+    height: 10vh;
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgba(10, 10, 61, 0.8);
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: all ease-in .1s;
+}
+
+.secondnav nav {
+    display: none;
+    visibility: hidden;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+.secondnav .logo {
+    display: none;
+    visibility: hidden;
+}
+
+a:hover {
+    color: yellow;
+
+}
+
+.dashbord .logo {
+    margin-right: 10rem;
+    color: white;
+
+}
+
+.logo img {
+    width: 100%;
+    height: 7vh;
+    aspect-ratio: 1.6;
+    border-radius: .3rem;
+}
+
+.submit1 {
+    margin-left: 10rem;
+    display: block;
+    height: 3.3rem;
+    font-size: 2rem;
+    padding: .1rem 1.5rem .1rem 1.5rem;
+    color: rgb(10, 10, 61);
+    background-color: yellow;
+
+}
+
+.submit1:active {}
+
+.submit1:hover {
+    color: white;
+    background-color: rgba(10, 10, 61, .8);
+    cursor: pointer;
+}
+
+/*----------------------------- dashbord middle section -------------------------- */
+
+.search {
+    width: 100%;
+    height: auto;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    padding: 15rem 10rem 10rem 10rem ;
+
+}
+
+.search h1 {
+    font-size: 5rem;
+    margin-top: 9rem;
+    margin-bottom: 2rem;
+    color: white;
+    padding-top: 5rem;
+}
+
+.search input[type='search'] {
+    margin-top: 1rem;
+    font-size: 2.3rem;
+    margin-bottom: 1.7rem;
+    padding: .3rem 2rem .5rem 2rem;
+
+}
+
+input[type='search']::placeholder {
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+
+.search button {
+    font-size: 2.3rem;
+    padding: .3rem 1rem .6rem 1rem;
+    transition: all ease-in .2s;
+    margin-left: -.3rem;
+
+}
+
+.search button:active {}
+
+.search button:hover {
+    color: rgb(10, 10, 61);
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.search p {
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 1rem 4rem 1rem 4rem;
+    color: white;
+
+}
+
+.launch button {
+    background-color: rgba(10, 10, 61, 7);
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding-top: .3rem;
+}
+
+.launch button:hover {
+    color: rgb(10, 10, 61);
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.launch button:active {}
+
+/* -------------------ending of dashbord section ---------------------- */
+.normalinfo {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3.2rem;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    gap: .1rem;
+}
+
+
+.i1 {
+    width: 100%;
+    height: 18rem;
+    border: .1rem solid gray;
+    float: left;
+    font-size: 1.6rem;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(10, 10, 61, 0.8);
+    color: white;
+}
+
+.i1 i {
+    font-size: 4.3rem;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 2.4rem;
+}
+
+.i1:nth-child(1) {
+    margin-left: 2rem;
+}
+
+.i1:nth-child(3) {
+    margin-right: 2rem;
+}
+
+.i1 h1 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+.i1:hover {
+    border-left: .1rem solid rgb(16, 16, 169);
+    border-bottom: .1rem solid rgb(16, 16, 169);
+    cursor: pointer;
+}
+
+
+/*==================================welcome section ================================================= */
+
+
+.welcomepart {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcomepart .w1 {
+    margin-top: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    color: rgb(10, 10, 61);
+    letter-spacing: .2rem;
+}
+
+.welcomepart img {
+    width: auto;
+    height: 40vh;
+    margin-top: 2rem;
+    margin-left: 43rem;
+}
+
+.welcomepart .p1 {
+    width: 60%;
+    height: 10vh;
+    text-align: center;
+    margin-top: .1rem;
+    margin-left: 29rem;
+    font-size: 1.2rem;
+
+}
+
+.backinfo {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2.7rem;
+    padding-left: 11rem;
+    padding-right: 6rem;
+    gap: 6rem;
+}
+
+.i2 {
+    width: 20%;
+    height: auto;
+    float: left;
+    font-size: 1.6rem;
+    padding: 1rem;
+    color: rgb(10, 10, 61);
+}
+
+.i2 i {
+    font-size: 4.3rem;
+    float: right;
+    margin-top: 3rem;
+    margin-right: 2.4rem;
+}
+
+.i2:nth-child(1) {
+    margin-left: 2rem;
+}
+
+.i2:nth-child(3) {
+    margin-right: 2rem;
+}
+
+.i2 h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+.i2 p {
+    width: 9.8rem;
+    height: .1rem;
+    border-bottom: .4rem dashed rgb(205, 205, 12);
+}
+
+.i2:hover {
+    border: .1rem solid lightgray;
+    cursor: pointer;
+}
+
+/* =============================stafff===================================  */
+.staff {
+    width: 100%;
+    height: 60vh;
+    padding: 5rem;
+}
+
+.staff p:nth-child(1) {
+    font-size: 2rem;
+}
+
+.staff p:nth-child(1) i {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.staff p:nth-child(2) {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.staff p:nth-child(3) {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.staff p {
+    color: rgb(10, 10, 61);
+
+}
+
+/*----------------------- courses section ----------------------------- */
+.courses {
+    width: 100%;
+    height: auto;
+}
+
+.courses .sidebar {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 3.9rem;
+    margin-bottom: 3.1rem;
+    padding: 2rem;
+    border: .1rem solid lightgrey;
+}
+
+.sidebar h2 {
+    background-color: blue;
+    color: white;
+    font-size: 3rem;
+    padding: .7rem;
+    border-radius: .7rem;
+}
+
+.sidebar span {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 1.8rem;
+    padding: .7rem 1.2rem .7rem 1.2rem;
+
+}
+.sidebar span:hover{
+    color: yellow;
+    background-color: lightgrey;
+
+}
+
+.sidebar span:nth-child(4),
+span:nth-child(6) {
+    padding-bottom: 1rem;
+    color: rgb(37, 37, 255);
+    font-size: 1.4rem;
+}
+
+.centerbar {
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+}
+
+.centerbar .box {
+    border-radius: .7rem;
+    display: grid;
+    place-items: center;
+    border: .1rem solid lightgrey;
+    float: left;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.box .fa-user {
+    padding: 1.6rem 3rem .2rem 3rem;
+    font-size: 4.1rem;
+
+}
+
+.box p:nth-child(2) {
+    font-size: 1.4rem;
+    color: rgb(10, 10, 61);
+    padding: .3rem 2rem 1.1rem 2rem;
+}
+
+.box p:nth-child(3) {
+    font-size: 1.7rem;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+    padding: 1rem;
+
+}
+/* =====================appp ========================= */
+.solutionapp {
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+.solutionapp .headingh2 {
+    font-size: 3.4rem;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.solutionapp .parap2 {
+    font-size: 2rem;
+    margin-left: 10rem;
+}
+
+.textcontent {
+    width: 45%;
+    height: auto;
+    margin-left: 10rem;
+    float: left;
+}
+
+.contentdiv img {
+    width: 4rem;
+    height: 4rem;
+    float: left;
+    padding-top: -1rem;
+}
+
+.contentdiv {
+    width: 90%;
+    height: auto;
+    margin: 1.5rem 2rem 2rem 2rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .4rem;
+    border: .1rem solid lightgray;
+
+
+}
+
+.contentdiv h2 {
+    font-size: 2.5rem;
+}
+
+.contentdiv p {
+    font-size: 1.5rem;
+}
+
+.contentdiv:hover {
+    background-color: rgb(174, 173, 173);
+}
+
+.contentdiv h2:hover {
+    color: rgb(46, 46, 237);
+}
+
+.mobileimg {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileimg img {
+    height: 40rem;
+    float: left;
+    margin: 4rem;
+    margin-left: 5rem;
+}
+
+.mobileimg i {
+    font-size: 3rem;
+}
+
+.mobileimg i:hover {
+    font-size: 2.9rem;
+    color: blueviolet;
+}
+
+/*--------------footer starts--------------------  */
+.footer {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    color: white;
+}
+
+.socialmedia {
+    width: auto;
+    margin-left: 10rem;
+    padding-top: 4rem;
+    float: left;
+}
+
+.socialmedia img {
+    width: 7vw;
+    height: 7vh;
+    aspect-ratio: 1.6;
+    border-radius: .3rem;
+}
+
+.socialmedia h2 {
+    font-size: 2rem;
+}
+
+.socialmedia span {
+    font-size: 2rem;
+    display: block;
+    font-weight: 600;
+}
+
+.socialmedia span:nth-child(3) {
+    color: blue;
+}
+
+.socialmedia span:nth-child(4) {
+    color: rgb(255, 0, 93);
+}
+.footercontent{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    float: left;
+    margin-left: 15rem;
+    gap: 3rem;
+    font-size: 1.1rem;
+    
+}
+.footercontent .f1{
+    padding: .3rem;
+    padding-top: 4rem;
+}
+.f1 p{
+    color: rgb(162, 160, 160);
+    font-size: 1.5rem;
+}
+.f1 p:hover{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.finishbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+   padding-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.finishbar span{
+    font-size: 1.1rem;
+}
+.finishbar span:hover{
+    color: blue;
+}
+hr{
+    color: lightgrey;
+    margin: 1rem .4rem .3rem .4rem;
+}
+.infro{
+    display: grid;
+    place-items: center;  
+    padding: 2rem;
+    
+}
+.infro h2{
+    width: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+ }
+.infro p{
+   width: 75%;
+   text-align: center;
+   font-size: 1.4rem;
+}
